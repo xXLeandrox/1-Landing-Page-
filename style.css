@@ -1,0 +1,301 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(180deg, #0C70F2 0%, #00ABFF 100%);
+}
+
+body .dark{
+    background-color: black;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.forma-geral{
+    position: relative;
+    padding: 1.7rem 0 2rem;
+    width: 100%;
+    min-height: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+    z-index: 10;
+}
+
+.text-area{
+    background-size: cover;
+    background: no-repeat center center;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.links a{
+    margin-left: 4.5rem;
+    display: inline-block;
+    color: white;
+}
+
+.links a:hover{
+    color: #0f0f10;
+    transform: scale(1.05);
+}
+
+.btnHeader{
+    background: #81b8ff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.btnHeader:hover{
+    box-shadow: 2px 15px 25px #19739f;
+    transition: .3s;
+}
+
+#cta{
+    font-size: medium;
+    color: black;
+    font-weight: 300;
+}
+
+.text-area .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.titulo-principal{
+    font-size: 1.4rem;
+    color:  #312f3a;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.text{
+    color:  #faf9ff;
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 2.3;
+}
+
+.ultimo{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: .3s;
+    background-color: #ecf9ff;
+}
+
+.text-area .ultimo{
+    box-shadow: 0 0 40px 2px  rgb(151, 149, 149);
+    transition: .3s;
+}
+
+.imgPessoa{
+    width: 100%;
+    transform: translate(10%, 15px);
+}
+
+.depoimentos{
+    width: 1280px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.depoimentos .card{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #0498e2;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.depoimentos .card imgDepo{
+    transition: 0.5s;
+}
+
+.deopimentos .card h1{
+    font-size: 2rem;
+}
+
+.depoimentos .card .conteudo{
+    padding: 20px;
+    text-align: center;
+}
+
+.depoimentos .card .conteudo p{
+    color: #312f3a;
+    transition: 0.5s;
+}
+
+.depoimentos .card:hover{
+    background-color: #30b6f9;
+    margin-top: -30px;
+    transition: 0.3s;
+    box-shadow: 2px 25px 25px #0e6895;
+}
+
+.imgDepo{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imgEstrela{
+    display: block;
+    align-items: center;
+    list-style: none;
+}
+
+.imgEstrela ul li{
+    display: inline-block;
+}
+
+.imgEstrela ul li img{
+    display: flex;
+    justify-content: center;
+}
+
+.areaTextDepoimento{
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.areaTextDepoimento h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 380px;
+    letter-spacing: 3px;
+    margin-right: 35px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border:0px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .btnForm h1{
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+#btnEnviar{
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: #EAECE5;
+    margin-left: 120px;
+    border: 0;
+    border-radius:5px;
+}
+
+#btnEnviar:hover{
+    box-shadow: 2px 15px 25px #19739f;
+    transition: .3s;
+}
+
+.imgMulher{
+    width: 360px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.areaInput{
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+}
+.formulario .areaInput button{
+    margin-left: 40px;
+    text-align: space-around;
+}
+
+.tituloCta h1{
+    margin-bottom: 40px;
+}
