@@ -44,7 +44,7 @@
                             performance.
                         </p>
                         <div class="acao">
-                            <button class="ultimo"><a href="#" id="cta">Comece Agora</a></button>
+                            <button class="ultimo"><a href="areaInput" id="cta">Comece Agora</a></button>
                         </div>
                     </div>
                     <div class="direita">
@@ -53,12 +53,12 @@
                 </div>
             </div>
         </div>
-        <div class="areaTextDepoimento">
+        <div class="areaCardDepoimento">
             <h1 id="tituloDepoimento">Depoimentos</h1>
         </div>
         <div class="depoimentos">
                 <div class="card">
-                    <img class="imgDepo" src="./imagens/pessoa1.png" alt="Pessoa">
+                    <img class="imgDepo" src="./imagens/pessoa1.png" alt="">
                     <h1>Maria Àvila</h1>
                     <div class="imgEstrela">
                         <ul>
@@ -80,7 +80,7 @@
         </div>
             <!--Segundo Depoimento-->
             <div class="card">
-                <img class="imgDepo" src="./imagens/pessoa2.png" alt="Pessoa">
+                <img class="imgDepo" src="./imagens/pessoa2.png" alt="">
                 <h1>Anna Paula</h1>
                 <div class="imgEstrela">
                     <ul>
@@ -102,7 +102,7 @@
     </div>
         <!--Terceiro Depoimento-->
         <div class="card">
-            <img class="imgDepo" src="./imagens/pessoa3.png" alt="Pessoa">
+            <img class="imgDepo" src="./imagens/pessoa3.png" alt="">
             <h1>João Pedro</h1>
             <div class="imgEstrela">
                 <ul>
@@ -124,15 +124,15 @@
 </div>
  </div>
  <div class="formulario">
-    <div class="imgMulher">
+    <div id="imgMulher">
         <img src="./imagens/imgMulher.png" alt="">
     </div>
     <div>
         <div class="tituloCta">
             <h1>Comece agora mesmo e dê o próximo passo na sua carreira</h1>
         <form class="areaInput">
-            <input type="text" placeholder="Digite seu nome">
-            <input type="email" placeholder="Digite seu melhor email">
+            <input type="text" placeholder="Digite seu nome" required> 
+            <input type="email" placeholder="Digite seu melhor email" required>
             <div>
                 <button id="btnEnviar">Enviar</button>
             </div>
@@ -140,7 +140,6 @@
             </div>
      </div>
     </div>
-    </main>
-    <script defer src="/main.js"></script>  
+    </main> 
 </body>
 </html>
