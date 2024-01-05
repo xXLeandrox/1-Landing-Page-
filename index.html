@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <main>
@@ -130,9 +131,10 @@
     <div>
         <div class="tituloCta">
             <h1>Comece agora mesmo e dê o próximo passo na sua carreira</h1>
-        <form class="areaInput">
-            <input type="text" placeholder="Digite seu nome" required> 
-            <input type="email" placeholder="Digite seu melhor email" required>
+        <form class="areaInput" action="https://api.sheetmonkey.io/form/7kpC1C36Bs6hz7tf6sTX8S" method="post">
+            <input type="text" placeholder="Digite seu nome" name="Nome" required> 
+            <input type="email" placeholder="Digite seu melhor email" name="Email" required>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/>
             <div>
                 <button id="btnEnviar">Enviar</button>
             </div>

@@ -83,6 +83,7 @@ header .container{
     display: flex;
     align-items: center;
     list-style: none;
+    font-size: 18px;
 }
 
 .links a{
@@ -184,7 +185,7 @@ header .container{
 }
 
 .deopimentos .card h1{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .depoimentos .card .conteudo{
@@ -229,7 +230,7 @@ header .container{
 .areaCardDepoimento{
     padding: 35px 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
@@ -307,3 +308,4 @@ input{
 .tituloCta h1{
     margin-bottom: 40px;
 }
+
